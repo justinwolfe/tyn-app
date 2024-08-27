@@ -1,5 +1,5 @@
 // app/routes/newsletter/index.tsx
-import { json, LoaderFunction } from '@remix-run/node';
+import { json, LoaderFunction } from '@remix-run/cloudflare';
 import { useLoaderData } from '@remix-run/react';
 
 type LoaderData = {
