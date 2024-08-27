@@ -4,4 +4,5 @@ module.exports = {
   server: './server.js',
   devServerBroadcastDelay: 1000,
   ignoredRouteFiles: ['**/.*'],
+  basename: '/newsletter',
 };
